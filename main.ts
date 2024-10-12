@@ -195,7 +195,7 @@ basic.showLeds(`
     `)
 basic.showLeds(`
     # . . . #
-    . # # # #
+    . # # # .
     . # . # #
     # # . . #
     . # . # #
