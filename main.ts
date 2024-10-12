@@ -158,4 +158,3 @@ basic.showLeds(`
     . . . . .
     . . . . .
     `)
-basic.showString("Don't worry, this is the intro of this game.")
