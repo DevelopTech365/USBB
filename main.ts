@@ -19,14 +19,14 @@ basic.showLeds(`
     `)
 basic.showIcon(IconNames.StickFigure)
 basic.showLeds(`
-    . . # . .
+    . . . . .
     . # # # .
     . . # . .
     . # . # .
     . . . . .
     `)
 basic.showLeds(`
-    . . # . .
+    . . . . .
     . . # . .
     . . # . .
     . . . . .
@@ -34,8 +34,8 @@ basic.showLeds(`
     `)
 basic.showLeds(`
     . . . . .
-    . . # . .
     . . . . .
+    . . # . .
     . . . . .
     . . . . .
     `)

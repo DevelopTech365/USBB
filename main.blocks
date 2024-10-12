@@ -5,21 +5,21 @@
         . # . # . 
         # . . . #
         `</field><next><block type="basic_show_icon" id="#;BF)T0WH1{/--^(wG!Q"><field name="i">IconNames.StickFigure</field><next><block type="device_show_leds" id="hI/UB|sjdc!YzGihn_*z"><field name="LEDS">`
-        . . # . . 
+        . . . . . 
         . # # # . 
         . . # . . 
         . # . # . 
         . . . . .
         `</field><next><block type="device_show_leds" id="B!x{^bZ|i?:R8uEuwcFK"><field name="LEDS">`
-        . . # . . 
+        . . . . . 
         . . # . . 
         . . # . . 
         . . . . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="]o0@eJw9xg_7GP31]VBn"><field name="LEDS">`
         . . . . . 
-        . . # . . 
         . . . . . 
+        . . # . . 
         . . . . . 
         . . . . .
         `</field><next><block type="device_show_leds" id="][pI:nDvtNk;y66|o6Ol"><field name="LEDS">`
