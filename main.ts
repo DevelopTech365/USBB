@@ -6,6 +6,13 @@ datalogger.createCV("5", 3),
 datalogger.createCV("5", 4),
 datalogger.createCV("5", 5)
 )
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    . . . . .
+    `)
 basic.showIcon(IconNames.Happy)
 basic.showIcon(IconNames.Surprised)
 basic.showIcon(IconNames.Happy)
@@ -148,6 +155,13 @@ basic.showLeds(`
     . . . . .
     . . . . .
     . . # . .
+    . . . . .
+    . . . . .
+    `)
+basic.showLeds(`
+    . . . . .
+    . . . . .
+    . . . . .
     . . . . .
     . . . . .
     `)
