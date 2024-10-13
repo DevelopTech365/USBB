@@ -1,3 +1,13 @@
+input.onButtonPressed(Button.A, function () {
+    music.play(music.stringPlayable("G B A G C5 B A B ", 120), music.PlaybackMode.UntilDone)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        # . . . #
+        . # # # .
+        . . . . .
+        `)
+})
 basic.showString("Hello!")
 datalogger.log(
 datalogger.createCV("5", 1),
