@@ -61,7 +61,49 @@ input.onGesture(Gesture.FreeFall, function () {
     }
 })
 input.onButtonPressed(Button.B, function () {
-	
+    basic.showString("The sun is shining")
+    basic.showLeds(`
+        # . # . #
+        . # # # .
+        # # # # #
+        . # # # .
+        # . # . #
+        `)
+    basic.showLeds(`
+        . . # . .
+        . # # # .
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        # . . . #
+        . # # # .
+        . # # # .
+        . # # # .
+        # . . . #
+        `)
+    basic.showLeds(`
+        . . # . .
+        . # # # .
+        # # # # #
+        . # # # .
+        . . # . .
+        `)
+    basic.showLeds(`
+        # . . . #
+        . # # # .
+        . # # # .
+        . # # # .
+        # . . . #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onGesture(Gesture.Shake, function () {
     basic.showLeds(`
