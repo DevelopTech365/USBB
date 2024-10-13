@@ -34,6 +34,13 @@ input.onButtonPressed(Button.A, function () {
         # . . . #
         . # # # .
         `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 basic.showString("Hello!")
 datalogger.log(
