@@ -36,7 +36,7 @@ input.onButtonPressed(Button.A, function () {
         `)
     basic.showLeds(`
         . . . . .
-        . . . . .
+        # . . . .
         . . . . .
         . . . . .
         . . . . .
@@ -60,7 +60,7 @@ input.onGesture(Gesture.FreeFall, function () {
             `)
     }
 })
-input.onButtonPressed(Button.B, function () {
+input.onButtonPressed(Button.AB, function () {
     basic.showString("The sun is shining")
     basic.showLeds(`
         # . # . #
@@ -96,6 +96,85 @@ input.onButtonPressed(Button.B, function () {
         . # # # .
         . # # # .
         # . . . #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showLeds(`
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . # . .
+        . # # # .
+        . . # . #
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . # . #
+        . # # # .
+        # . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . # . #
+        . # # # .
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . # . .
+        . # # # #
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        # . # . .
+        . # # # #
+        . . # . .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        # . # . .
+        . # # # #
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        # . # . .
+        . # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        # . # . .
         `)
     basic.showLeds(`
         . . . . .
