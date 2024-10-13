@@ -42,6 +42,24 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         `)
 })
+input.onGesture(Gesture.FreeFall, function () {
+    for (let index = 0; index < 15; index++) {
+        basic.showLeds(`
+            . . # . .
+            . . # . .
+            . . # . .
+            . . . . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+})
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
         . . # . .
