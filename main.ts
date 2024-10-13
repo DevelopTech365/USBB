@@ -42,6 +42,85 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         `)
 })
+input.onButtonPressed(Button.B, function () {
+    basic.showLeds(`
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . # . .
+        . # # # .
+        . . # . #
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . # . #
+        . # # # .
+        # . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . # . .
+        # # # # #
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . # . #
+        . # # # .
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        # . # . .
+        . # # # #
+        . . # . .
+        . . # . .
+        . # . # .
+        `)
+    basic.showLeds(`
+        . . . . .
+        # . # . .
+        . # # # #
+        . . # . .
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        # . # . .
+        . # # # #
+        . . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        # . # . .
+        . # # # #
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        # . # . .
+        `)
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+})
 basic.showString("Hello!")
 datalogger.log(
 datalogger.createCV("5", 1),
